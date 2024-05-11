@@ -1,0 +1,15 @@
+JS 
+-Word vs keyword 
+-- what is a diffence between in var ,const ,let .
+--the Difference
+--window object
+--browser cantext api
+--stack
+--heap memory
+--execution context
+--lexical enviroment
+--hoisting
+--types in JS
+--how to copy reference values
+--conditionals
+
