@@ -176,21 +176,144 @@ display: flex;
 }
 
 /* icons */
-
-.icons{
-    height: 40vh;
+.main-icons{
     width: 100%;
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    height: 25vh;
+    width: 40%;
+    /* background-color: red; */
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .icons-items {
-    width: 100%;
+    width:100%;
     height: 10vh;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .icons-items img{
-    height: 3em;
+    height: 2.5em;
+}
+
+/* cards */
+
+.cards{
+    height: 50vh;
+    width: 100%;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#card-1{
+    height: vh;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 8px;
+    gap: 2em;
+    margin: 0 4em;
+}
+#card-1 img{
+    border-radius: 8px;
+    width: 100%;
+
+}
+#card-1 h3{
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 2.3em;
+    margin: 0 0.5em;
+}
+#card-1 p{
+    padding: 0 2vh;
+}
+#card-1 .Learn-more-a{
+    margin:  5em 0.7em ;
+    width: 25%;
+}
+
+#card-2{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 8px;
+    gap: 2em;
+    margin: 0 4em;
+}
+#card-2 img{
+    border-radius: 8px;
+    width: 100%;
+
+}
+#card-2 h3{
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 2.3em;
+    margin: 0 0.5em;
+}
+#card-2 p{
+    padding: 0 2vh;
+}
+#card-2 .Learn-more-a{
+    margin:  5em 0.7em ;
+    width: 25%;
+}
+
+#card-3{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 8px;
+    gap: 2em;
+    margin: 0 4em;
+}
+#card-3 img{
+    border-radius: 8px;
+    width: 100%;
+
+}
+#card-3 h3{
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 2.3em;
+    margin: 0 0.5em;
+}
+#card-3 p{
+    padding: 0 2vh;
+}
+#card-3 .Learn-more-a{
+    margin:  5em 0.7em ;
+    width: 25%;
+    
+}
+
+#card-4{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 8px;
+    gap:  2em;
+    margin: 0 4em;
+}
+#card-4 img{
+    border-radius: 8px;
+    width: 100%;
+
+}
+#card-4 h3{
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 2.3em;
+    margin: 0 0.5em;
+}
+#card-4 p{
+    padding: 0 2vh;
+}
+#card-4 .Learn-more-a{
+    margin:  5em 0.7em ;
+    width: 25%;
 }
